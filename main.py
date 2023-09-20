@@ -31,7 +31,7 @@ if __name__ == '__main__':
     while True:
         x, y, dir, instructions = read_test_case(_file)
 
-        if x < 0 or x > upper_x or y < 0 or y > upper_y:
+        if x not in range(0, upper_x+1) or y not in range(0, upper_y+1):
             print("Wrong coordinates")
             continue
 
