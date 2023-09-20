@@ -1,0 +1,7 @@
+Python == 3.11.5
+
+Dependencies:
+    argparse == 1.1
+
+command to run:
+    - python main.py --tests-file ./path/to/file
